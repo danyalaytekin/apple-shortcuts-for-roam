@@ -11,3 +11,4 @@ This is just a place to organise my own shortcuts, tools to help build them, and
 ## Links
 
 - the Slack channel [Roam → apple-shortcuts](https://roamresearch.slack.com/archives/C038QEGUZL4)
+- the Roam team's documentation for [Roam's web API](https://roamresearch.com/#/app/developer-documentation/page/W4Po8pcHQ)
