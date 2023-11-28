@@ -17,3 +17,10 @@ This is just a place to organise my own shortcuts, tools to help build them, and
 - useful native shortcuts
     - [`Get Contents of URL`](https://support.apple.com/en-gb/guide/shortcuts/apd58d46713f/ios) (it doesn't only `GET`...)
     - [`Expand URL`](https://matthewcassinelli.com/actions/expand-url/)
+- some GitHub topics, to help find other open source work
+    - [`roam`](https://github.com/topics/roam)
+    - [`roamresearch`](https://github.com/topics/roamresearch)
+    - [`roam-research`](https://github.com/topics/roam-research)
+    - [`appleshortcuts`](https://github.com/topics/appleshortcuts)
+    - [`apple-shortcuts`](https://github.com/topics/apple-shortcuts)
+    - [`siri-shortcuts`](https://github.com/topics/siri-shortcuts)
