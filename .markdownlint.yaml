@@ -1,0 +1,7 @@
+# Options: https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.yaml
+
+MD007: # Unordered list indentation
+    indent: 4
+
+MD013: # Line length
+    line_length: 200
