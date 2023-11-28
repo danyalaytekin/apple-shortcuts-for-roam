@@ -12,6 +12,7 @@ This is just a place to organise my own shortcuts, tools to help build them, and
 
 - Roam resources
     - documentation for the [web API](https://roamresearch.com/#/app/developer-documentation/page/W4Po8pcHQ)
+    - official [Postman collection for the web API](https://www.postman.com/roamresearch/workspace/roam-research-backend-api/collection/27948971-ac6bd2a2-c0f0-4259-abc1-78bde0a01958)
     - [help graph](https://roamresearch.com/#/app/help/page/fCaJekIoX)
     - [changelog](https://roamresearch.com/#/app/help/page/Ec97klr7x)
     - the Slack channel [Roam → apple-shortcuts](https://roamresearch.slack.com/archives/C038QEGUZL4)
