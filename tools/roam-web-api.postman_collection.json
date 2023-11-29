@@ -18,7 +18,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"eid\": \"[:block/uid \\\"BLOCK_ID\\\"]\",\n  \"selector\": \"[:block/string]\"\n}",
+					"raw": "{\n    \"eid\": \"[:block/uid \\\"some-block-id\\\"]\",\n    \"selector\": \"[:block/string]\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -49,7 +49,7 @@
 		"bearer": [
 			{
 				"key": "token",
-				"value": "GRAPH_API_KEY",
+				"value": "some-graph-api-key",
 				"type": "string"
 			}
 		]
