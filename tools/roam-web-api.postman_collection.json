@@ -26,16 +26,11 @@
 					}
 				},
 				"url": {
-					"raw": "https://api.roamresearch.com/api/graph/{{GRAPH_NAME}}/pull",
-					"protocol": "https",
+					"raw": "{{API_URL_BASE}}/{{GRAPH_NAME}}/pull",
 					"host": [
-						"api",
-						"roamresearch",
-						"com"
+						"{{API_URL_BASE}}"
 					],
 					"path": [
-						"api",
-						"graph",
 						"{{GRAPH_NAME}}",
 						"pull"
 					]
@@ -65,16 +60,11 @@
 					}
 				},
 				"url": {
-					"raw": "https://api.roamresearch.com/api/graph/{{GRAPH_NAME}}/write",
-					"protocol": "https",
+					"raw": "{{API_URL_BASE}}/{{GRAPH_NAME}}/write",
 					"host": [
-						"api",
-						"roamresearch",
-						"com"
+						"{{API_URL_BASE}}"
 					],
 					"path": [
-						"api",
-						"graph",
 						"{{GRAPH_NAME}}",
 						"write"
 					]
@@ -117,6 +107,11 @@
 		{
 			"key": "GRAPH_NAME",
 			"value": "some-graph-name",
+			"type": "string"
+		},
+		{
+			"key": "API_URL_BASE",
+			"value": "https://api.roamresearch.com/api/graph",
 			"type": "string"
 		}
 	]
