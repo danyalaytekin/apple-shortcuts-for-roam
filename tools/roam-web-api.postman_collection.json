@@ -78,7 +78,7 @@
 		"bearer": [
 			{
 				"key": "token",
-				"value": "some-graph-api-key",
+				"value": "{{AUTH_KEY_WRITE}}",
 				"type": "string"
 			}
 		]
@@ -105,13 +105,18 @@
 	],
 	"variable": [
 		{
+			"key": "API_URL_BASE",
+			"value": "https://api.roamresearch.com/api/graph",
+			"type": "string"
+		},
+		{
 			"key": "GRAPH_NAME",
 			"value": "some-graph-name",
 			"type": "string"
 		},
 		{
-			"key": "API_URL_BASE",
-			"value": "https://api.roamresearch.com/api/graph",
+			"key": "AUTH_KEY_WRITE",
+			"value": "some-auth-key",
 			"type": "string"
 		}
 	]
