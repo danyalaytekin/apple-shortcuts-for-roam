@@ -42,6 +42,45 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Write text by id",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"user-agent": true
+				},
+				"followAuthorizationHeader": true,
+				"disableCookies": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"action\" : \"update-block\", \n    \"block\": {\n        \"uid\": \"some-block-id\",\n        \"string\": \"Intended text\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.roamresearch.com/api/graph/{{GRAPH_NAME}}/write",
+					"protocol": "https",
+					"host": [
+						"api",
+						"roamresearch",
+						"com"
+					],
+					"path": [
+						"api",
+						"graph",
+						"{{GRAPH_NAME}}",
+						"write"
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"auth": {
