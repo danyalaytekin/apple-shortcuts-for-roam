@@ -26,7 +26,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://api.roamresearch.com/api/graph/GRAPH_NAME/pull",
+					"raw": "https://api.roamresearch.com/api/graph/{{GRAPH_NAME}}/pull",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -36,15 +36,8 @@
 					"path": [
 						"api",
 						"graph",
-						"GRAPH_NAME",
+						"{{GRAPH_NAME}}",
 						"pull"
-					],
-					"query": [
-						{
-							"key": "",
-							"value": "",
-							"disabled": true
-						}
 					]
 				}
 			},
@@ -79,6 +72,13 @@
 					""
 				]
 			}
+		}
+	],
+	"variable": [
+		{
+			"key": "GRAPH_NAME",
+			"value": "some-graph-name",
+			"type": "string"
 		}
 	]
 }
